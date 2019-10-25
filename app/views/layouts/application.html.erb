@@ -10,6 +10,21 @@
   </head>
 
   <body>
+    <header class="row">
+      <div class="col-3">
+        Golfweek Amateur Tour
+      </div>
+      <div class="col-4">
+        Points Game Players
+      </div>
+      <div class="col-5">
+        <%= link_to 'Add Player', new_player_path %>
+      </div>
+    </header>
+
+    <br class="clear" />
+
     <%= yield %>
+
   </body>
 </html>
